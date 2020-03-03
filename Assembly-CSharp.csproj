@@ -10,7 +10,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{851157E0-2F6D-E45B-FBBA-04FD61F55491}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -62,8 +63,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BasicSeek.cs" />
-    <Compile Include="Assets\Flee.cs" />
+    <Compile Include="Assets\Scripts\BasicSeek.cs" />
+    <Compile Include="Assets\Scripts\Flee.cs" />
+    <Compile Include="Assets\Scripts\Patrol.cs" />
+    <Compile Include="Assets\Scripts\State.cs" />
+    <Compile Include="Assets\Scripts\StateMachine.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/s199083/IntroToAI/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
